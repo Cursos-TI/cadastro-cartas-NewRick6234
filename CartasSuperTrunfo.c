@@ -13,6 +13,7 @@ int main() {
     float area1;
     float pib1;
     int numPontosTuristicos1;
+    float densiPop1;
 
     char estado2;
     char codCarta2[5];
@@ -21,6 +22,7 @@ int main() {
     float area2;
     float pib2;
     int numPontosTuristicos2;
+    float densiPop2;
 
   // Área para entrada de dados
    printf("Cadastre a primeira carta\n");
@@ -70,7 +72,7 @@ int main() {
 
   // Área para exibição dos dados da cidade
 
-   printf("Estado: %c \n", estado1);
+    printf("Estado: %c \n", estado1);
     printf("Cod: %s \n", codCarta1);
     printf("Nome da cidade: %s \n", nomeCidade1);
     printf("População: %d mil habitantes \n", populacao1);
