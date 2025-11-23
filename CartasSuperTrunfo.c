@@ -100,5 +100,14 @@ int main() {
     printf("Numero de pontos turisticos: %d \n", numPontosTuristicos2);
     printf("Densidade populacional: %f \n", densiPop2);
     printf("Pib percapita: %f \n", pibPerCap2);
+
+    // compara a população e exibe a cidade com maior população
+
+    if (populacao1 > populacao2){
+      printf("O vencedor foi %s com a população de %d \n",nomeCidade1,populacao1);
+    }
+    else{
+      printf("O vencedor foi %s com a população de %d \n",nomeCidade2,populacao2);
+    }
 return 0;
 } 
